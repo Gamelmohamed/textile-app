@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="imges/tex 0.jpeg">
+    <title>G-TeX</title>
+</head>
+<body>
+    <div class="contanner">
+        <header>
+            <h1>Calculate the whight of the fabric</h1>
+        </header>
+
+        <div class="content">
+
+            <div class="drob-list line">
+                <label for="select-list">Choose the system counting of warb :</label>
+                <select name="type-of-count" id="select-list">
+                    <option  class="option-warb" value="cotton">Cotton</option>
+                    <option class="option-warb"  value="linen">Linen</option>
+                    <option  class="option-warb" value="wool">Wool</option>
+                    <option  class="option-warb" value="metric">Metric</option>
+                    <option  class="option-warb" value="denier">Denier</option>
+                    <option  class="option-warb" value="tex">Tex</option>
+                    <option  class="option-warb" value="detex">Detex</option>
+                </select>
+            </div>
+
+            <div class="line">
+                <label for="count-warb">Enter the count of warb :</label>
+                <input type="number" id="count-warb" >
+
+            </div>
+
+
+            
+
+
+            <div class="warb line">
+                 <label for="warb">Number of Warb/centimeter :</label>
+                 <input type="number" id="warb">
+            </div>
+             
+            <div class="soaking-warb line">
+                <label for="soaking-warb">Soaking of warb :</label>
+                <input type="number" id="soaking-warb">
+           </div>
+
+           <div class="drob-list line">
+            <label for="select-list-weft">Choose the system counting of weft :</label>
+            <select name="type-of-count" id="select-list-weft">
+                <option class="option-weft" value="cotton">Cotton</option>
+                <option class="option-weft" value="linen">Linen</option>
+                <option class="option-weft" value="wool">Wool</option>
+                <option class="option-weft" value="metric">Metric</option>
+                <option class="option-weft" value="denier">Denier</option>
+                <option class="option-weft" value="tex">Tex</option>
+                <option class="option-weft" value="detex">Detex</option>
+            </select>
+        </div>
+
+           <div class="line">
+               <label for="count-weft">Enter the count of weft :</label>
+               <input type="number" id="count-weft">
+           </div>
+
+
+            <div class="weft line">
+                <label for="weft">Weft/centimeter :</label>
+                <input type="number" id="weft">
+            </div>
+            
+            <div class="soaking-weft line">
+                <label for="soaking-weft">Soaking of weft :</label>
+                <input type="number" id="soaking-weft">
+           </div>
+
+        </div>
+
+        <div class="buttons">
+            <button class="calc" type="button" onclick="calcWeight()">Calc</button>
+            <button class="reset" type="reset">Reset</button>
+        </div>
+
+        <div class="result">
+            <p></p>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>

@@ -1,0 +1,58 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+   
+    height: 100vh;
+    background-image:linear-gradient(to right bottom,
+     rgb(58, 71, 55),
+      rgba(88, 140, 123, 0.474)) ,
+      url(./imges/tex2.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+
+}
+
+.content{
+font-weight: bold;
+}
+
+header{
+margin: 20px 5px ;
+}
+
+.line{
+    margin: 10px ;
+    padding: 5px;
+    font-size: 20px;
+    
+}
+
+input{
+    font-size: 16px;
+    float: right;
+}
+
+.buttons{
+    display: flex;
+    justify-content: center;
+}
+
+button{
+    padding: 5PX;
+    font-size: 18PX;
+    margin: 10PX;
+}
+
+.result{
+    background-color: rgb(9, 12, 53);
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+}
